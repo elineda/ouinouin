@@ -144,18 +144,15 @@ go.click(function(){
           if (rouge==0){
             typeCompteur="jaune";
             tb=tbEnchantRJ;
-            console.log('j');
           }
           if (rouge>0) {
             if (nStuff<=rouge){
               typeCompteur="jaune";
               tb=tbEnchantRJ;
-              console.log("j");
             }
             else {
               typeCompteur="rouge";
               tb=tbEnchantRR;
-              console.log('r');
             }
           }
         }
@@ -164,29 +161,24 @@ go.click(function(){
             if (nStuff>=violette){
               typeCompteur="violette";
               tb=tbEnchantRV;
-              console.log('v');
             }
             else {
               typeCompteur="jaune";
               tb=tbEnchantRJ;
-              console.log('j');
             }
           }
           if (rouge>0){
             if(nStuff>=rouge){
               typeCompteur="rouge";
               tb=tbEnchantRR;
-              console.log('r');
             }
             else if (nStuff>=violette) {
               typeCompteur="violette";
               tb=tbEnchantRV;
-              console.log('v');
             }
             else {
               typeCompteur="jaune";
               tb=tbEnchantRJ;
-              console.log('j');
             }
           }
 
@@ -220,8 +212,6 @@ go.click(function(){
 
       }
 
-
-      console.log(nStuff);
       if (typeCompteur=="rouge") {
         rUtil++;
       }
