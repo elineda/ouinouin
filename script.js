@@ -235,8 +235,10 @@ console.log("pierres Rouge"+rUtil);
 
 
 //affichage du resultat
+if (rUtil!==0) {
 
-$('#rjaune').html(jUtil+" pierres jaunes utilisées.");
+  $('#rjaune').html(jUtil+" pierres jaunes utilisées.");
+}
 if (vUtil!==0) {
 
   $('#rviolet').html(vUtil+" pierres violettes utilisées. Donc beaucoup d'euros.");
