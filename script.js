@@ -237,8 +237,14 @@ console.log("pierres Rouge"+rUtil);
 //affichage du resultat
 
 $('#rjaune').html(jUtil+" pierres jaunes utilisées.");
-$('#rviolet').html(vUtil+" pierres violettes utilisées. Donc beaucoup d'euros.");
-$('#rrouge').html(rUtil+" pierres rouges utilisées. Avous tu n'en as jamais vu autant.");
+if (vUtil!==0) {
+
+  $('#rviolet').html(vUtil+" pierres violettes utilisées. Donc beaucoup d'euros.");
+}
+if (rUtil!==0) {
+
+  $('#rrouge').html(rUtil+" pierres rouges utilisées. Avous tu n'en as jamais vu autant.");
+}
 
 //reset
 nStuff=0;
