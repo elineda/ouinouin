@@ -239,13 +239,24 @@ if (rUtil!==0) {
 
   $('#rjaune').html(jUtil+" pierres jaunes utilisées.");
 }
+else {
+  $('#rviolet').html(" ");
+}
+
 if (vUtil!==0) {
 
   $('#rviolet').html(vUtil+" pierres violettes utilisées. Donc beaucoup d'euros.");
 }
+else {
+  $('#rviolet').html(" ");
+}
+
 if (rUtil!==0) {
 
   $('#rrouge').html(rUtil+" pierres rouges utilisées. Avous tu n'en as jamais vu autant.");
+}
+else {
+  $('#rrouge').html(" ");
 }
 
 //reset
