@@ -235,12 +235,12 @@ console.log("pierres Rouge"+rUtil);
 
 
 //affichage du resultat
-if (rUtil!==0) {
+if (jUtil!==0) {
 
   $('#rjaune').html(jUtil+" pierres jaunes utilisées.");
 }
 else {
-  $('#rviolet').html(" ");
+  $('#rjaune').html(" ");
 }
 
 if (vUtil!==0) {
