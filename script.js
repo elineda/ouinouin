@@ -188,7 +188,7 @@ go.click(function(){
       let nb2=Math.floor((Math.random() * 100) + 1);
       if (nb1>nb2){
           let nb3=Math.floor((Math.random() * 100) + 1);
-          if (nb3>89) {
+          if (nb3>90) {
             nStuff=nStuff+2;
           }
           else{
