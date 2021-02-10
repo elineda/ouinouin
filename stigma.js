@@ -6,6 +6,7 @@ $(function(){
   let crit=[13, 13, 13, 8, 8, 5, 5, 5, 3, 1, 1, 1]
   let supercrit=[5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0 ]
 
+  
 
   let stigmago=$('#stigmago');
   let event=$('#event');
