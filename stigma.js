@@ -7,7 +7,6 @@ $(function(){
   let supercrit=[5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0 ]
 
 
-
   let stigmago=$('#stigmago');
   let event=$('#event');
 
